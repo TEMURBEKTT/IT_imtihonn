@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+:root {
+  --color-bg: #5fb4a2;
+  --color-bg1: #33323d;
+  --color-bg2: #ffffff;
+  --background-bg: #203a4c;
+  --background-bg1: #000000;
+  --color-bg3: #ddddde;
+}
+a {
+  text-decoration: none;
+}
+body {
+  header {
+    display: flex;
+    justify-content: center;
+    //   margin: 0 auto;
+    .nav_container {
+      margin-top: 64px;
+      margin-bottom: 54px;
+      width: 1111px;
+      height: 32px;
+      nav {
+        display: flex;
+        img {
+          margin-left: 20px;
+          margin-right: 742px;
+        }
+        .home {
+          color: var(--color-bg1);
+          font-family: Public Sans;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: normal;
+          margin-right: 42px;
+        }
+        .portfolio {
+          color: var(--color-bg);
+          font-family: Public Sans;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: normal;
+          margin-right: 42px;
+        }
+        .contact_me {
+          color: var(--background-bg1);
+          font-family: Public Sans;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+  section {
+    .section_container {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 540px;
+        height: 500px;
+        flex-shrink: 0;
+      }
+      .writing {
+        margin-left: 125px;
+        border-bottom: 1px solid var(--color-bg3);
+        border-top: 1px solid var(--color-bg3);
+        .about_me {
+          margin-top: 103px;
+          color: var(--color-bg1);
+          font-family: Ibarra Real Nova;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 42px; /* 105% */
+          letter-spacing: -0.357px;
+        }
+        .junior {
+          margin-top: 28px;
+          width: 350px;
+          color: var(--color-bg1);
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+        }
+        .portfolio_btn {
+          button {
+            cursor: pointer;
+            margin-top: 24px;
+            background: var(--color-bg2);
+            color: var(--background-bg1);
+            font-family: Public Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            width: 202px;
+            height: 48px;
+          }
+          button:hover {
+            transition: all 0.6s;
+            background: var(--background-bg1);
+            color: var(--color-bg2);
+            border: 1px solid var(--color-bg2);
+          }
+        }
+      }
+    }
+  }
+  .section {
+    .section_container_one {
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+      img {
+        width: 540px;
+        height: 500px;
+        flex-shrink: 0;
+      }
+      .writing__two { 
+        margin-right: 125px;
+        border-bottom: 1px solid var(--color-bg3);
+        border-top: 1px solid var(--color-bg3);
+        .about_me {
+          margin-top: 103px;
+          color: var(--color-bg1);
+          font-family: Ibarra Real Nova;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 42px; /* 105% */
+          letter-spacing: -0.357px;
+        }
+        .junior {
+          margin-top: 28px;
+          width: 350px;
+          color: var(--color-bg1);
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+        }
+        .portfolio_btn {
+          button {
+            cursor: pointer;
+            margin-top: 24px;
+            background: var(--color-bg2);
+            color: var(--background-bg1);
+            font-family: Public Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            width: 202px;
+            height: 48px;
+          }
+          button:hover {
+            transition: all 0.6s;
+            background: var(--background-bg1);
+            color: var(--color-bg2);
+            border: 1px solid var(--color-bg2);
+          }
+        }
+      }
+    }
+  }
+  .section_one {
+    .section_container_two {
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+      img {
+        width: 540px;
+        height: 500px;
+        flex-shrink: 0;
+      }
+      .writing { 
+        margin-left: 125px;
+        border-bottom: 1px solid var(--color-bg3);
+        border-top: 1px solid var(--color-bg3);
+        .about_me {
+          margin-top: 103px;
+          color: var(--color-bg1);
+          font-family: Ibarra Real Nova;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 42px; /* 105% */
+          letter-spacing: -0.357px;
+        }
+        .junior {
+          margin-top: 28px;
+          width: 350px;
+          color: var(--color-bg1);
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+        }
+        .portfolio_btn {
+          button {
+            cursor: pointer;
+            margin-top: 24px;
+            background: var(--color-bg2);
+            color: var(--background-bg1);
+            font-family: Public Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            width: 202px;
+            height: 48px;
+          }
+          button:hover {
+            transition: all 0.6s;
+            background: var(--background-bg1);
+            color: var(--color-bg2);
+            border: 1px solid var(--color-bg2);
+          }
+        }
+      }
+    }
+  }
+  .section_two {
+    .section_container_three {
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+      img {
+        width: 540px;
+        height: 500px;
+        flex-shrink: 0;
+      }
+      .writing__two { 
+        margin-right: 125px;
+        border-bottom: 1px solid var(--color-bg3);
+        border-top: 1px solid var(--color-bg3);
+        .about_me {
+          margin-top: 103px;
+          color: var(--color-bg1);
+          font-family: Ibarra Real Nova;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 42px; /* 105% */
+          letter-spacing: -0.357px;
+        }
+        .junior {
+          margin-top: 28px;
+          width: 350px;
+          color: var(--color-bg1);
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+        }
+        .portfolio_btn {
+          button {
+            cursor: pointer;
+            margin-top: 24px;
+            background: var(--color-bg2);
+            color: var(--background-bg1);
+            font-family: Public Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            width: 202px;
+            height: 48px;
+          }
+          button:hover {
+            transition: all 0.6s;
+            background: var(--background-bg1);
+            color: var(--color-bg2);
+            border: 1px solid var(--color-bg2);
+          }
+        }
+      }
+    }
+  }
+  .section__two {
+    .center {
+      center {
+        margin-top: 150px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        .interested {
+          width: 350px;
+          color: var(--color-bg1);
+          font-family: Ibarra Real Nova;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 42px; /* 105% */
+          letter-spacing: -0.357px;
+        }
+        .line {
+          margin-left: 32px;
+          margin-right: 32px;
+          background: var(--color-bg3);
+          width: 534px;
+          height: 1px;
+        }
+        .contact_me_btn {
+          button {
+            cursor: pointer;
+            background: var(--color-bg2);
+            color: var(--color-bg1);
+            font-family: Public Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border: 1px solid var(--color-bg1);
+            width: 162px;
+            height: 48px;
+          }
+          button:hover {
+            transition: all 0.6s;
+            background: var(--background-bg1);
+            color: var(--color-bg2);
+            border: 1px solid var(--color-bg2);
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .footer_container {
+      margin-top: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #33323d;
+      width: 1440px;
+      height: 80px;
+      .img__two {
+        margin-left: 165px;
+        margin-right: 48px;
+      }
+      .home {
+        margin-right: 42px;
+        color: #fff;
+        font-family: Public Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .portfolio {
+        margin-right: 42px;
+        color: #fff;
+        font-family: Public Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .contact_me {
+        margin-right: 591px;
+        color: #fff;
+        font-family: Public Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .icons {
+        img {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
